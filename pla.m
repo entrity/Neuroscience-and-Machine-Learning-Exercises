@@ -69,7 +69,7 @@ for i = 1:N
 	if mm
 		iterations += 1;
 		% printf('%2d mm %2d %2d\n', i, y(i), h(i))
-		w = w + y(i) * x(:,i);
+		w = w + y(mm) * x(:,mm);
 		render
 		pause(0.07)
 		% disp(w');
